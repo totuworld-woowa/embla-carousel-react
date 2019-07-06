@@ -1,54 +1,75 @@
 <br />
-<p align="center">
-  <a href="https://davidcetinkaya.github.io/embla-carousel" target="_blank"><img width="80" height="80" src="https://rawgit.com/davidcetinkaya/embla-carousel/master/docs/assets/embla-logo.svg" alt="Embla Carousel React">
-  </a>
-</p>
-<strong>
-  <h1 align="center">Embla Carousel React</h1>
-</strong>
-<p align="center">
-  A React.js component for Embla Carousel, written in TypeScript.
-</p>
-<p align="center">
-  <a href="https://opensource.org/licenses/MIT" target="_blank"><img src="https://img.shields.io/badge/license-MIT-blue.svg"></a>
-  <a href="https://www.npmjs.com/package/embla-carousel-react" target="_blank"><img src="https://img.shields.io/npm/v/embla-carousel-react.svg"></a>
-  <a href="https://travis-ci.org/davidcetinkaya/embla-carousel-react" target="_blank"><img src="https://img.shields.io/travis/davidcetinkaya/embla-carousel-react/master.svg"></a>
-  <a href="https://prettier.io" target="_blank"><img src="https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat"></a>
-</p>
+<div align="center">
+  <p align="center">
+    <a href="https://davidcetinkaya.github.io/embla-carousel" target="_blank"><img width="80" height="80" src="https://rawgit.com/davidcetinkaya/embla-carousel/master/docs/assets/embla-logo.svg" alt="Embla Carousel">
+    </a>
+  </p>
+
+  <strong>
+    <h1 align="center">Embla Carousel React</h1>
+  </strong>
+
+  <p align="center">
+    A React.js component for Embla Carousel, written in TypeScript.
+  </p>
+
+  <p align="center">
+    <a href="https://opensource.org/licenses/MIT" target="_blank"><img src="https://img.shields.io/badge/license-MIT-blue.svg"></a>
+    <a href="https://www.npmjs.com/package/embla-carousel-react" target="_blank"><img src="https://img.shields.io/npm/v/embla-carousel-react.svg"></a>
+    <a href="https://travis-ci.org/davidcetinkaya/embla-carousel-react" target="_blank"><img src="https://img.shields.io/travis/davidcetinkaya/embla-carousel-react/master.svg"></a>
+    <a href="https://prettier.io" target="_blank"><img src="https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat"></a>
+  </p>
+
+  <p align="center">
+    <strong>
+      <h4 align="center">
+        <code> &nbsp; <a href="https://davidcetinkaya.github.io/embla-carousel">DEMO PAGE</a> &nbsp; </code>
+      </h4>
+    </strong>
+  </p>
+</div>
+
+<br>
+
 <p align="center">
   <strong>
-    <a href="https://davidcetinkaya.github.io/embla-carousel" target="_blank">« View Demo »</a>
+    « &nbsp;<code><a href="#quickstart">USAGE</a></code>
+  </strong>
+  <strong>
+    &nbsp; | &nbsp;
+  </strong>
+  <strong>
+    <code><a href="#props">PROPS</a></code>&nbsp; »
   </strong>
 </p>
 
-## Table of contents
+<br>
 
-- [Demo](#demo)
-- [Implementations](#implementations)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Props](#props)
-- [License](#license)
+<p align="center">
+  <a href="https://github.com/davidcetinkaya/embla-carousel">
+    <img src="https://rawgit.com/davidcetinkaya/embla-carousel/master/docs/assets/javascript-logo.svg" height="50" alt="Embla Carousel JavaScript" />
+  </a>
+  &nbsp;
+  <a href="https://github.com/davidcetinkaya/embla-carousel-react">
+    <img src="https://rawgit.com/davidcetinkaya/embla-carousel/master/docs/assets/react-logo.svg" height="50" alt="Embla Carousel React" />
+  </a>
+</p>
 
-## Demo
-
-> Try it on the [Demo Page](https://davidcetinkaya.github.io/embla-carousel) or [CodeSandbox](https://codesandbox.io/s/embla-carousel-react-znjzv) ✨.
-
-## Implementations
-
-[<img src="https://rawgit.com/davidcetinkaya/embla-carousel/master/docs/assets/javascript-logo.svg" height="60" alt="Embla Carousel JavaScript" />](https://github.com/davidcetinkaya/embla-carousel) &nbsp; &nbsp; [<img src="https://rawgit.com/davidcetinkaya/embla-carousel/master/docs/assets/react-logo.svg" height="60" alt="Embla Carousel React" />](https://github.com/davidcetinkaya/embla-carousel-react)
+<br>
 
 ## Installation
 
-```bash
-yarn add embla-carousel-react
-```
+NPM
+
+<pre>npm install <a href="https://www.npmjs.com/package/embla-carousel-react">embla-carousel-react</a></pre>
 
 ```javascript
-import EmblaCarouselReact from 'embla-carousel-react'
+import EmblaCarousel from 'embla-carousel-react'
 ```
 
-## Usage
+## QuickStart
+
+React Component
 
 ```javascript
 class EmblaCarouselComponent extends Component {
