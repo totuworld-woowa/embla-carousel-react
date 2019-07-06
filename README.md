@@ -64,7 +64,7 @@ NPM
 <pre>npm install <a href="https://www.npmjs.com/package/embla-carousel-react">embla-carousel-react</a></pre>
 
 ```javascript
-import EmblaCarousel from 'embla-carousel-react'
+import EmblaCarouselReact from 'embla-carousel-react'
 ```
 
 ## QuickStart
@@ -124,7 +124,12 @@ class EmblaCarouselComponent extends Component {
 - **`emblaRef`** - Like a ref function to access the Embla instance in parent component.
 - **`options`** - Same [options](https://github.com/davidcetinkaya/embla-carousel#options) as the vanilla JS Embla package.
 
-## License
+<br>
+<br>
 
-Embla is [MIT licensed](./LICENSE).  
-Copyright © 2019-present, David Cetinkaya.
+<h2 align="center">License</h2>
+
+<p align="center">
+  <sup>Copyright © 2019-present, David Cetinkaya.</sup><br>
+  Embla is <a href="https://github.com/davidcetinkaya/embla-carousel-react/blob/master/LICENSE">MIT licensed</a>.
+</p>
