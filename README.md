@@ -111,8 +111,6 @@ const EmblaCarouselComponent = () => {
     </>
   )
 }
-
-export default EmblaCarouselComponent
 ```
 
 React Class Component
