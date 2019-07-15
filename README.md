@@ -106,8 +106,8 @@ const EmblaCarouselComponent = () => {
           </div>
         </div>
       </EmblaCarouselReact>
-      <button onClick={scrollPrev} />
-      <button onClick={scrollNext} />
+      <button onClick={scrollPrev}>Previous</button>
+      <button onClick={scrollNext}>Next</button>
     </>
   )
 }
