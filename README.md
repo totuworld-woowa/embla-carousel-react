@@ -47,11 +47,11 @@
 
 <p align="center">
   <a href="https://github.com/davidcetinkaya/embla-carousel">
-    <img src="https://rawgit.com/davidcetinkaya/embla-carousel/master/docs/assets/javascript-logo.svg" height="50" alt="Embla Carousel JavaScript" />
+    <img src="https://rawgit.com/davidcetinkaya/embla-carousel/master/docs/assets/javascript-logo.svg" height="50" alt="JavaScript" />
   </a>
   &nbsp;
   <a href="https://github.com/davidcetinkaya/embla-carousel-react">
-    <img src="https://rawgit.com/davidcetinkaya/embla-carousel/master/docs/assets/react-logo.svg" height="50" alt="Embla Carousel React" />
+    <img src="https://rawgit.com/davidcetinkaya/embla-carousel/master/docs/assets/react-logo.svg" height="50" alt="React" />
   </a>
 </p>
 
@@ -67,11 +67,59 @@ NPM
 import EmblaCarouselReact from 'embla-carousel-react'
 ```
 
-## QuickStart
+## Usage
 
-React Component
+React Hooks
 
 ```javascript
+import React, { useState, useEffect } from 'react'
+
+const EmblaCarouselComponent = () => {
+  const [embla, setEmbla] = useState(null)
+  const scrollPrev = () => embla.scrollPrev()
+  const scrollNext = () => embla.scrollNext()
+
+  useEffect(() => {
+    if (embla) {
+      embla.on('select', () => {
+        console.log(`Current index is ${embla.selectedScrollSnap()}`)
+      })
+    }
+  }, [embla])
+
+  return (
+    <>
+      <EmblaCarouselReact
+        htmlTagName="div"
+        emblaRef={c => setEmbla(c)}
+        options={{ loop: false }}
+      >
+        <div style={{ display: 'flex' }}>
+          <div style={{ flex: '0 0 auto', width: '100%' }}>
+            Slide 1
+          </div>
+          <div style={{ flex: '0 0 auto', width: '100%' }}>
+            Slide 2
+          </div>
+          <div style={{ flex: '0 0 auto', width: '100%' }}>
+            Slide 3
+          </div>
+        </div>
+      </EmblaCarouselReact>
+      <button onClick={scrollPrev} />
+      <button onClick={scrollNext} />
+    </>
+  )
+}
+
+export default EmblaCarouselComponent
+```
+
+React Class Component
+
+```javascript
+import React, { Component } from 'react'
+
 class EmblaCarouselComponent extends Component {
   componentDidMount() {
     this.embla.on('select', () => {
@@ -81,11 +129,11 @@ class EmblaCarouselComponent extends Component {
     })
   }
 
-  next() {
+  scrollNext() {
     this.embla.scrollNext()
   }
 
-  prev() {
+  scrollPrev() {
     this.embla.scrollPrev()
   }
 
@@ -97,7 +145,7 @@ class EmblaCarouselComponent extends Component {
           emblaRef={c => (this.embla = c)}
           options={{ loop: false }}
         >
-          <div style={{ display: 'flex', willChange: 'transform' }}>
+          <div style={{ display: 'flex' }}>
             <div style={{ flex: '0 0 auto', width: '100%' }}>
               Slide 1
             </div>
@@ -109,8 +157,8 @@ class EmblaCarouselComponent extends Component {
             </div>
           </div>
         </EmblaCarouselReact>
-        <button onClick={() => this.prev()}>Previous</button>
-        <button onClick={() => this.next()}>Next</button>
+        <button onClick={() => this.scrollPrev()}>Previous</button>
+        <button onClick={() => this.scrollNext()}>Next</button>
       </>
     )
   }
