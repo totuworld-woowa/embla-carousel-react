@@ -33,7 +33,7 @@
 
 <p align="center">
   <strong>
-    « &nbsp;<code><a href="#quickstart">USAGE</a></code>
+    « &nbsp;<code><a href="#usage">USAGE</a></code>
   </strong>
   <strong>
     &nbsp; | &nbsp;
