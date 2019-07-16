@@ -113,7 +113,7 @@ const EmblaCarouselComponent = () => {
 }
 ```
 
-React Class Component
+React Class
 
 ```javascript
 import React, { Component } from 'react'
