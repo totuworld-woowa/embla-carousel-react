@@ -173,9 +173,9 @@ class EmblaCarouselComponent extends Component {
 <br>
 <br>
 
-<h2 align="center">License</h2>
+<h2 align="center">Open Source</h2>
 
 <p align="center">
   <sup>Copyright © 2019-present, David Cetinkaya.</sup><br>
-  Embla is <a href="https://github.com/davidcetinkaya/embla-carousel-react/blob/master/LICENSE">MIT licensed</a>.
+  Embla is <a href="https://github.com/davidcetinkaya/embla-carousel-react/blob/master/LICENSE">MIT licensed</a> 💖
 </p>
