@@ -95,15 +95,9 @@ const EmblaCarouselComponent = () => {
         options={{ loop: false }}
       >
         <div style={{ display: 'flex' }}>
-          <div style={{ flex: '0 0 auto', width: '100%' }}>
-            Slide 1
-          </div>
-          <div style={{ flex: '0 0 auto', width: '100%' }}>
-            Slide 2
-          </div>
-          <div style={{ flex: '0 0 auto', width: '100%' }}>
-            Slide 3
-          </div>
+          <div style={{ flex: '0 0 100%' }}>Slide 1</div>
+          <div style={{ flex: '0 0 100%' }}>Slide 2</div>
+          <div style={{ flex: '0 0 100%' }}>Slide 3</div>
         </div>
       </EmblaCarouselReact>
       <button onClick={scrollPrev}>Previous</button>
@@ -144,15 +138,9 @@ class EmblaCarouselComponent extends Component {
           options={{ loop: false }}
         >
           <div style={{ display: 'flex' }}>
-            <div style={{ flex: '0 0 auto', width: '100%' }}>
-              Slide 1
-            </div>
-            <div style={{ flex: '0 0 auto', width: '100%' }}>
-              Slide 2
-            </div>
-            <div style={{ flex: '0 0 auto', width: '100%' }}>
-              Slide 3
-            </div>
+            <div style={{ flex: '0 0 100%' }}>Slide 1</div>
+            <div style={{ flex: '0 0 100%' }}>Slide 2</div>
+            <div style={{ flex: '0 0 100%' }}>Slide 3</div>
           </div>
         </EmblaCarouselReact>
         <button onClick={() => this.scrollPrev()}>Previous</button>
