@@ -71,12 +71,12 @@ import EmblaCarouselReact from 'embla-carousel-react'
 React Hooks
 
 ```javascript
-import React, { useState, useEffect } from 'react'
+import React, { useState, useCallback, useEffect } from 'react'
 
 const EmblaCarouselComponent = () => {
   const [embla, setEmbla] = useState(null)
-  const scrollPrev = () => embla.scrollPrev()
-  const scrollNext = () => embla.scrollNext()
+  const scrollPrev = useCallback(() => embla.scrollPrev(), [embla])
+  const scrollNext = useCallback(() => embla.scrollNext(), [embla])
 
   useEffect(() => {
     if (embla) {
