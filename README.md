@@ -19,7 +19,7 @@
   </strong>
 
   <p align="center">
-    A tiny React.js component for <a href="https://github.com/davidcetinkaya/embla-carousel">Embla Carousel</a>. For full documentation, API and available options, please visit the vanilla JavaScript <a href="https://github.com/davidcetinkaya/embla-carousel">package page</a>.
+    A tiny React.js wrapper for <a href="https://github.com/davidcetinkaya/embla-carousel">Embla Carousel</a>. Please visit the vanilla JavaScript <a href="https://github.com/davidcetinkaya/embla-carousel">package on Github</a> for documentation, available API methods and customizable options.
   </p>
 
   <br>
