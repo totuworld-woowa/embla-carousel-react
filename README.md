@@ -19,47 +19,42 @@
   </strong>
 
   <p align="center">
-    A tiny React.js component for <a href="https://github.com/davidcetinkaya/embla-carousel">Embla Carousel</a>.
+    A tiny React.js component for <a href="https://github.com/davidcetinkaya/embla-carousel">Embla Carousel</a>. For full documentation, API and available options, please visit the vanilla JavaScript <a href="https://github.com/davidcetinkaya/embla-carousel">package page</a>.
   </p>
+
+  <br>
 
   <p align="center">
     <strong>
-      <h4 align="center">
-        <code>&nbsp;<a href="https://davidcetinkaya.github.io/embla-carousel">DEMO</a>&nbsp;</code>
-      </h4>
+      <code>&nbsp;<a href="https://davidcetinkaya.github.io/embla-carousel">TRY DEMO</a>&nbsp;</code>
     </strong>
   </p>
+
+  <br>
+
+  <p align="center">
+    <strong>
+      <a href="#usage">usage</a>
+      &nbsp; &middot; &nbsp;
+      <a href="#props">props</a>
+      &nbsp; &middot; &nbsp;
+      <a href="https://codesandbox.io/s/znjzv">codesandbox</a>
+    </strong>
+  </p>
+
+  <br>
+
+  <p align="center">
+    <a href="https://github.com/davidcetinkaya/embla-carousel">
+      <img src="https://rawgit.com/davidcetinkaya/embla-carousel/master/docs/assets/javascript-logo.svg" height="45" alt="JavaScript" />
+    </a>
+    &nbsp;
+    <a href="https://github.com/davidcetinkaya/embla-carousel-react">
+      <img src="https://rawgit.com/davidcetinkaya/embla-carousel/master/docs/assets/react-logo.svg" height="45" alt="React" />
+    </a>
+  </p>
 </div>
-
-<br>
-
-<p align="center">
-  <strong>
-    <code><a href="#usage">USAGE</a></code>
-  </strong>
-  &nbsp;
-  <strong>
-    <code><a href="https://codesandbox.io/s/znjzv">CODE SANDBOX</a></code>
-  </strong>
-  &nbsp;
-  <strong>
-    <code><a href="#props">PROPS</a></code>
-  </strong>
-</p>
-
-<br>
-
-<p align="center">
-  <a href="https://github.com/davidcetinkaya/embla-carousel">
-    <img src="https://rawgit.com/davidcetinkaya/embla-carousel/master/docs/assets/javascript-logo.svg" height="50" alt="JavaScript" />
-  </a>
-  &nbsp;
-  <a href="https://github.com/davidcetinkaya/embla-carousel-react">
-    <img src="https://rawgit.com/davidcetinkaya/embla-carousel/master/docs/assets/react-logo.svg" height="50" alt="React" />
-  </a>
-</p>
-
-<br>
+<br />
 
 ## Installation
 
