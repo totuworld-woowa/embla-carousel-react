@@ -5,10 +5,6 @@
     </a>
   </p>
 
-  <strong>
-    <h2 align="center">Embla Carousel React</h2>
-  </strong>
-
   <p align="center">
     <a href="https://opensource.org/licenses/MIT" target="_blank"><img src="https://img.shields.io/badge/license-MIT-blue.svg"></a>
     <a href="https://www.npmjs.com/package/embla-carousel-react" target="_blank"><img src="https://img.shields.io/npm/v/embla-carousel-react.svg"></a>
@@ -17,6 +13,10 @@
     <a href="https://www.npmjs.com/package/embla-carousel-react" target="_blank"><img src="https://img.shields.io/bundlephobia/minzip/embla-carousel-react?color=%234c1&label=gzip%20size">
     </a>
   </p>
+
+  <strong>
+    <h2 align="center">Embla Carousel React</h2>
+  </strong>
 
   <p align="center">
     A tiny React.js component for <a href="https://github.com/davidcetinkaya/embla-carousel">Embla Carousel</a>.
