@@ -6,24 +6,26 @@
   </p>
 
   <strong>
-    <h1 align="center">Embla Carousel React</h1>
+    <h2 align="center">Embla Carousel React</h2>
   </strong>
-
-  <p align="center">
-    A React.js component for Embla Carousel, written in TypeScript.
-  </p>
 
   <p align="center">
     <a href="https://opensource.org/licenses/MIT" target="_blank"><img src="https://img.shields.io/badge/license-MIT-blue.svg"></a>
     <a href="https://www.npmjs.com/package/embla-carousel-react" target="_blank"><img src="https://img.shields.io/npm/v/embla-carousel-react.svg"></a>
     <a href="https://travis-ci.org/davidcetinkaya/embla-carousel-react" target="_blank"><img src="https://img.shields.io/travis/davidcetinkaya/embla-carousel-react/master.svg"></a>
     <a href="https://prettier.io" target="_blank"><img src="https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat"></a>
+    <a href="https://www.npmjs.com/package/embla-carousel-react" target="_blank"><img src="https://img.shields.io/bundlephobia/minzip/embla-carousel-react?color=%234c1&label=gzip%20size">
+    </a>
+  </p>
+
+  <p align="center">
+    A tiny React.js component for <a href="https://github.com/davidcetinkaya/embla-carousel">Embla Carousel</a>.
   </p>
 
   <p align="center">
     <strong>
       <h4 align="center">
-        <code> &nbsp; <a href="https://davidcetinkaya.github.io/embla-carousel">DEMO PAGE</a> &nbsp; </code>
+        <code> &nbsp; <a href="https://davidcetinkaya.github.io/embla-carousel">DEMO</a> &nbsp; </code>
       </h4>
     </strong>
   </p>
@@ -33,13 +35,15 @@
 
 <p align="center">
   <strong>
-    « &nbsp;<code><a href="#usage">USAGE</a></code>
+    <code><a href="#usage">USAGE</a></code>
   </strong>
+  &nbsp;
   <strong>
-    &nbsp; | &nbsp;
+    <code><a href="https://codesandbox.io/s/znjzv">CODE SANDBOX</a></code>
   </strong>
+  &nbsp;
   <strong>
-    <code><a href="#props">PROPS</a></code>&nbsp; »
+    <code><a href="#props">PROPS</a></code>
   </strong>
 </p>
 
