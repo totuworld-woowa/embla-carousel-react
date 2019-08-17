@@ -62,16 +62,13 @@ NPM
 
 <pre>npm install <a href="https://www.npmjs.com/package/embla-carousel-react">embla-carousel-react</a></pre>
 
-```javascript
-import EmblaCarouselReact from 'embla-carousel-react'
-```
-
 ## Usage
 
 React Hooks
 
 ```javascript
 import React, { useState, useCallback, useEffect } from 'react'
+import EmblaCarouselReact from 'embla-carousel-react'
 
 const EmblaCarouselComponent = () => {
   const [embla, setEmbla] = useState(null)
@@ -104,12 +101,15 @@ const EmblaCarouselComponent = () => {
     </>
   )
 }
+
+export default EmblaCarouselComponent
 ```
 
 React Class
 
 ```javascript
 import React, { Component } from 'react'
+import EmblaCarouselReact from 'embla-carousel-react'
 
 class EmblaCarouselComponent extends Component {
   componentDidMount() {
@@ -148,6 +148,8 @@ class EmblaCarouselComponent extends Component {
     )
   }
 }
+
+export default EmblaCarouselComponent
 ```
 
 ## Props
