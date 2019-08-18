@@ -87,7 +87,7 @@ const EmblaCarouselComponent = () => {
     <>
       <EmblaCarouselReact
         htmlTagName="div"
-        emblaRef={c => setEmbla(c)}
+        emblaRef={setEmbla}
         options={{ loop: false }}
       >
         <div style={{ display: 'flex' }}>
