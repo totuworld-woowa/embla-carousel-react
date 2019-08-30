@@ -3,7 +3,7 @@
   "version": "1.0.2",
   "author": "David Cetinkaya",
   "private": false,
-  "description": "A React.js component for Embla Carousel, written in TypeScript",
+  "description": "A tiny React.js wrapper for Embla Carousel",
   "keywords": [
     "slider",
     "carousel",
@@ -62,7 +62,7 @@
     "webpack-cli": "^3.3.6"
   },
   "dependencies": {
-    "embla-carousel": "^2.3.3",
+    "embla-carousel": "^2.4.0",
     "react": "^16.8.6",
     "react-dom": "^16.8.6"
   },
