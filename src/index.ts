@@ -12,6 +12,7 @@ type PropType = {
 const canUseDOM = !!(typeof window !== 'undefined' && window.document)
 
 class EmblaCarouselReact extends Component<PropType> {
+  static defaultProps = { htmlTagName: 'div' }
   container = React.createRef<HTMLElement>()
   embla?: EmblaCarousel
 

@@ -5,6 +5,7 @@ import EmblaCarouselReact, { UserOptions } from '..'
 
 configure({ adapter: new EnzymeAdapter() })
 
+const emblaRef = () => null
 const options: UserOptions = {
   align: 'center',
   containerSelector: '*',
@@ -22,11 +23,7 @@ const options: UserOptions = {
 describe('Embla Carousel React', () => {
   test('Consumes all options', () => {
     const embla = mount(
-      <EmblaCarouselReact
-        options={options}
-        htmlTagName="div"
-        emblaRef={() => null}
-      >
+      <EmblaCarouselReact options={options} emblaRef={emblaRef}>
         <div />
       </EmblaCarouselReact>,
     )
@@ -35,11 +32,7 @@ describe('Embla Carousel React', () => {
 
   test('Renders children', () => {
     const embla = mount(
-      <EmblaCarouselReact
-        options={options}
-        htmlTagName="div"
-        emblaRef={() => null}
-      >
+      <EmblaCarouselReact options={options} emblaRef={emblaRef}>
         <ul>
           <li />
           <li />
