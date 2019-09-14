@@ -6,7 +6,7 @@ type PropType = {
   children?: ReactNode
   className?: string
   options?: UserOptions
-  emblaRef: (embla: EmblaCarousel) => void
+  emblaRef?: (embla: EmblaCarousel) => void
 }
 
 const canUseDOM = !!(typeof window !== 'undefined' && window.document)
@@ -22,7 +22,7 @@ class EmblaCarouselReact extends Component<PropType> {
       this.container.current as HTMLElement,
       this.props.options,
     )
-    this.props.emblaRef(this.embla)
+    if (this.props.emblaRef) this.props.emblaRef(this.embla)
   }
 
   render() {
