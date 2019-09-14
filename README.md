@@ -38,7 +38,7 @@
       &nbsp; &middot; &nbsp;
       <a href="#props">props</a>
       &nbsp; &middot; &nbsp;
-      <a href="https://codesandbox.io/s/znjzv">codesandbox</a>
+      <a href="#codesandbox">codesandbox</a>
     </strong>
   </p>
 
@@ -158,6 +158,11 @@ export default EmblaCarouselComponent
 - **`className`** - Applied to top the top level wrapper.
 - **`emblaRef`** - Like a ref function to access the Embla instance in parent component.
 - **`options`** - Same [options](https://github.com/davidcetinkaya/embla-carousel#options) as the vanilla JS Embla package.
+
+## CodeSandbox
+
+- [With Previous, Next & Dot buttons](https://codesandbox.io/s/embla-carousel-react-znjzv)
+- [With Autoplay & adjustable delay](https://codesandbox.io/s/embla-carousel-react-iox4t) (uses react hooks with a [custom useInterval hook](https://overreacted.io/making-setinterval-declarative-with-react-hooks/))
 
 <br>
 <br>
