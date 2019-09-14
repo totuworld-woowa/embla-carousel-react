@@ -67,13 +67,11 @@ NPM
 React Hooks
 
 ```javascript
-import React, { useState, useCallback, useEffect } from 'react'
+import React, { useState, useEffect } from 'react'
 import EmblaCarouselReact from 'embla-carousel-react'
 
 const EmblaCarouselComponent = () => {
   const [embla, setEmbla] = useState(null)
-  const scrollPrev = useCallback(() => embla.scrollPrev(), [embla])
-  const scrollNext = useCallback(() => embla.scrollNext(), [embla])
 
   useEffect(() => {
     if (embla) {
@@ -86,7 +84,6 @@ const EmblaCarouselComponent = () => {
   return (
     <>
       <EmblaCarouselReact
-        htmlTagName="div"
         emblaRef={setEmbla}
         options={{ loop: false }}
       >
@@ -96,8 +93,8 @@ const EmblaCarouselComponent = () => {
           <div style={{ flex: '0 0 100%' }}>Slide 3</div>
         </div>
       </EmblaCarouselReact>
-      <button onClick={scrollPrev}>Previous</button>
-      <button onClick={scrollNext}>Next</button>
+      <button onClick={() => embla.scrollPrev()}>Prev</button>
+      <button onClick={() => embla.scrollNext()}>Next</button>
     </>
   )
 }
@@ -120,19 +117,10 @@ class EmblaCarouselComponent extends Component {
     })
   }
 
-  scrollNext() {
-    this.embla.scrollNext()
-  }
-
-  scrollPrev() {
-    this.embla.scrollPrev()
-  }
-
   render() {
     return (
       <>
         <EmblaCarouselReact
-          htmlTagName="div"
           emblaRef={c => (this.embla = c)}
           options={{ loop: false }}
         >
@@ -142,8 +130,8 @@ class EmblaCarouselComponent extends Component {
             <div style={{ flex: '0 0 100%' }}>Slide 3</div>
           </div>
         </EmblaCarouselReact>
-        <button onClick={() => this.scrollPrev()}>Previous</button>
-        <button onClick={() => this.scrollNext()}>Next</button>
+        <button onClick={() => this.embla.scrollPrev()}>Prev</button>
+        <button onClick={() => this.embla.scrollNext()}>Next</button>
       </>
     )
   }
