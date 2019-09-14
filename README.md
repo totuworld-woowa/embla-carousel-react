@@ -161,8 +161,8 @@ export default EmblaCarouselComponent
 
 ## CodeSandbox
 
-- [`Basic Setup`](https://codesandbox.io/s/embla-carousel-react-znjzv) - With Previous, Next & Dot buttons
-- [`Autoplay`](https://codesandbox.io/s/embla-carousel-react-iox4t) - With adjustable delay. Uses react hooks with a [custom useInterval hook](https://overreacted.io/making-setinterval-declarative-with-react-hooks/)
+- [**`Basic Setup`**](https://codesandbox.io/s/embla-carousel-react-znjzv) - With Previous, Next & Dot buttons
+- [**`Autoplay`**](https://codesandbox.io/s/embla-carousel-react-iox4t) - With adjustable delay. Uses react hooks with a [custom useInterval hook](https://overreacted.io/making-setinterval-declarative-with-react-hooks/).
 
 <br>
 <br>
