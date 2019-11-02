@@ -149,8 +149,23 @@ export default EmblaCarouselComponent
 
 ## CodeSandbox
 
-- [**`Basic Setup`**](https://codesandbox.io/s/embla-carousel-react-znjzv) - With Previous, Next & Dot buttons.
-- [**`Autoplay`**](https://codesandbox.io/s/embla-carousel-react-iox4t) - With adjustable delay. Uses react hooks with a [custom useInterval hook](https://overreacted.io/making-setinterval-declarative-with-react-hooks/).
+<p>Get started instantly with one of the CodeSandboxes below.</p>
+
+<p>
+  <img src="https://rawgit.com/davidcetinkaya/embla-carousel/master/docs/assets/codesandbox-logo.svg" height="23" align="top" alt="Embla Carousel CodeSandbox" /> &nbsp;
+  <a href="https://codesandbox.io/s/embla-carousel-react-znjzv">
+    <code>Basic Setup</code>
+  </a> 
+  - With Previous, Next & Dot buttons.
+</p>
+
+<p>
+  <img src="https://rawgit.com/davidcetinkaya/embla-carousel/master/docs/assets/codesandbox-logo.svg" height="23" align="top" alt="Embla Carousel CodeSandbox" /> &nbsp;
+  <a href="https://codesandbox.io/s/embla-carousel-react-iox4t">
+    <code>Autoplay</code>
+  </a> 
+  - Example of how to setup Autoplay.
+</p>
 
 <br>
 <br>
@@ -160,4 +175,14 @@ export default EmblaCarouselComponent
 <p align="center">
   <sup>Copyright © 2019-present, David Cetinkaya.</sup><br>
   Embla is <a href="https://github.com/davidcetinkaya/embla-carousel-react/blob/master/LICENSE">MIT licensed</a> 💖
+</p>
+
+<p align="center">
+  <strong>· · ·</strong>
+</p>
+
+<p align="center">
+  <a href="https://www.browserstack.com">
+    <img src="https://rawgit.com/davidcetinkaya/embla-carousel/master/docs/assets/browserstack-logo.svg" height="60" alt="Embla Carousel BrowserStack" />
+    </a>
 </p>
