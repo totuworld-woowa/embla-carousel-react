@@ -1,6 +1,6 @@
 {
   "name": "embla-carousel-react",
-  "version": "1.2.11",
+  "version": "1.2.12",
   "author": "David Cetinkaya",
   "private": false,
   "description": "A tiny React.js wrapper for Embla Carousel",
