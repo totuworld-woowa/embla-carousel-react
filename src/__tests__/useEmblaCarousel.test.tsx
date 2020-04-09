@@ -1,27 +1,13 @@
 import React from 'react'
 import { mount, configure } from 'enzyme'
 import EnzymeAdapter from 'enzyme-adapter-react-16'
-import { UserOptions, useEmblaCarousel } from '..'
+import { useEmblaCarousel } from '..'
 
 configure({ adapter: new EnzymeAdapter() })
 
-const options: UserOptions = {
-  align: 'center',
-  containerSelector: '*',
-  slidesToScroll: 1,
-  draggable: true,
-  dragFree: false,
-  loop: false,
-  speed: 10,
-  startIndex: 0,
-  selectedClass: 'is-selected',
-  draggableClass: 'is-draggable',
-  draggingClass: 'is-dragging',
-}
-
 describe('Embla Carousel Hook', () => {
   const EmblaCarouselHook = () => {
-    const [EmblaCarousel] = useEmblaCarousel(options)
+    const [EmblaCarousel] = useEmblaCarousel()
     return (
       <EmblaCarousel>
         <ul>
