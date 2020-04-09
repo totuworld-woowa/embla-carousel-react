@@ -26,7 +26,7 @@ const useEmblaCarousel = (options?: UserOptions): [FC<PropType>, EmblaCarousel?]
     htmlTagName = 'div',
     className,
     children,
-  }: PropType) => {
+  }) => {
     return createElement(
       htmlTagName,
       {
