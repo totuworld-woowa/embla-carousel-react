@@ -1,5 +1,13 @@
 import EmblaCarousel, { UserOptions } from 'embla-carousel'
-import { createElement, createRef, FC, ReactNode, useCallback, useEffect, useState } from 'react'
+import {
+  createElement,
+  createRef,
+  FC,
+  ReactNode,
+  useCallback,
+  useEffect,
+  useState,
+} from 'react'
 import { canUseDOM } from './utils'
 
 type PropType = {
@@ -8,7 +16,9 @@ type PropType = {
   className?: string
 }
 
-const useEmblaCarousel = (options?: UserOptions): [FC<PropType>, EmblaCarousel?] => {
+const useEmblaCarousel = (
+  options?: UserOptions,
+): [FC<PropType>, EmblaCarousel?] => {
   const [embla, setEmbla] = useState<EmblaCarousel>()
   const container = createRef<HTMLElement>()
 
@@ -22,21 +32,20 @@ const useEmblaCarousel = (options?: UserOptions): [FC<PropType>, EmblaCarousel?]
     return () => embla?.destroy()
   }, [embla])
 
-  const Carousel: FC<PropType> = useCallback(({
-    htmlTagName = 'div',
-    className,
-    children,
-  }) => {
-    return createElement(
-      htmlTagName,
-      {
-        className,
-        ref: container,
-        style: { overflow: 'hidden' },
-      },
-      children,
-    )
-  }, [])
+  const Carousel: FC<PropType> = useCallback(
+    ({ htmlTagName = 'div', className, children }) => {
+      return createElement(
+        htmlTagName,
+        {
+          className,
+          ref: container,
+          style: { overflow: 'hidden' },
+        },
+        children,
+      )
+    },
+    [],
+  )
 
   return [Carousel, embla]
 }
