@@ -58,7 +58,9 @@
 
 ## Special Thanks
 
-Massive thanks to Tobial Lindström (<a href="https://github.com/gunnarx2">gunnarx2</a>) for pushing this wrapper forward by bringing the `useEmblaCarousel` hook to Embla Carousel React. Amazing work 💖!
+Massive thanks to Tobias Lindström <a href="https://github.com/gunnarx2">@gunnarx2</a> for pushing this wrapper forward by bringing the `useEmblaCarousel` hook to Embla Carousel React. Amazing work 💖!
+
+<a href="https://github.com/gunnarx2"><img src="https://avatars2.githubusercontent.com/u/10469652?s=122&v=4" title="gunnarx2" width="66" height="66" style="max-width:100%;"></a>
 
 <br>
 
