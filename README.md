@@ -56,22 +56,32 @@
 </div>
 <br />
 
+## Special Thanks
+
+Massive thanks to Tobial Lindström (<a href="https://github.com/gunnarx2">gunnarx2</a>) for pushing this wrapper forward by bringing the `useEmblaCarousel` hook to Embla Carousel React. Amazing work 💖!
+
+<br>
+
 ## Installation
 
 NPM
 
 <pre>npm install <a href="https://www.npmjs.com/package/embla-carousel-react">embla-carousel-react</a></pre>
 
+<br>
+
 ## Usage
 
 React Hooks
 
 ```javascript
-import React, { useState, useEffect } from 'react'
-import EmblaCarouselReact from 'embla-carousel-react'
+import React, { useEffect } from 'react'
+import { useEmblaCarousel } from 'embla-carousel-react'
 
 const EmblaCarouselComponent = () => {
-  const [embla, setEmbla] = useState(null)
+  const [EmblaCarouselReact, embla] = useEmblaCarousel({
+    loop: false,
+  })
 
   useEffect(() => {
     if (embla) {
@@ -83,10 +93,7 @@ const EmblaCarouselComponent = () => {
 
   return (
     <>
-      <EmblaCarouselReact
-        emblaRef={setEmbla}
-        options={{ loop: false }}
-      >
+      <EmblaCarouselReact>
         <div style={{ display: 'flex' }}>
           <div style={{ flex: '0 0 100%' }}>Slide 1</div>
           <div style={{ flex: '0 0 100%' }}>Slide 2</div>
@@ -140,6 +147,8 @@ class EmblaCarouselComponent extends Component {
 export default EmblaCarouselComponent
 ```
 
+<br>
+
 ## Props
 
 - **`htmlTagName`** - Any valid HTML tag like `div` or `ul` etc.
@@ -147,13 +156,15 @@ export default EmblaCarouselComponent
 - **`emblaRef`** - Like a ref function to access the Embla instance in parent component.
 - **`options`** - Same [options](https://github.com/davidcetinkaya/embla-carousel#options) as the vanilla JS Embla package.
 
+<br>
+
 ## CodeSandbox
 
 <p>Get started instantly with one of the CodeSandboxes below.</p>
 
 <p>
   <img src="https://rawgit.com/davidcetinkaya/embla-carousel/master/docs/assets/codesandbox-logo.svg" height="23" align="top" alt="Embla Carousel CodeSandbox" /> &nbsp;
-  <a href="https://codesandbox.io/s/embla-carousel-react-znjzv">
+  <a href="https://codesandbox.io/s/embla-carousel-react-basic-setup-znjzv">
     <code>Basic Setup</code>
   </a> 
   - With Previous, Next & Dot buttons.
