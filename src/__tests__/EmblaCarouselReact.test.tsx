@@ -1,7 +1,7 @@
 import React from 'react'
 import { mount, configure } from 'enzyme'
 import EnzymeAdapter from 'enzyme-adapter-react-16'
-import EmblaCarouselReact, { UserOptions } from '..'
+import EmblaCarouselReact, { UserOptions } from '../'
 
 configure({ adapter: new EnzymeAdapter() })
 
