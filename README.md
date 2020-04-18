@@ -179,7 +179,7 @@ export default EmblaCarouselComponent
     <h2 align="center">Special Thanks</h2>
   </strong>
   <p align="center">
-    Massive thanks to <a href="https://github.com/gunnarx2">Tobias Lindström</a> for pushing this wrapper forward by bringing the <code>useEmblaCarousel</code> hook to Embla Carousel React. <br>Amazing work 💖!
+    Massive thanks to <a href="https://github.com/gunnarx2">Tobias Lindström</a> for pushing this wrapper forward by bringing the <code>useEmblaCarousel</code> hook to Embla Carousel React. Amazing work 💖!
   </p>
   <p align="center">
     <a href="https://github.com/gunnarx2"><img src="https://avatars2.githubusercontent.com/u/10469652?s=122&v=4" title="gunnarx2" width="66" height="66" style="max-width:100%;"></a>
