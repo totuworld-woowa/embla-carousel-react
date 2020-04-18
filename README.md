@@ -187,7 +187,6 @@ export default EmblaCarouselComponent
 </div>
 
 <br>
-<br>
 
 <h2 align="center">Open Source</h2>
 
