@@ -155,9 +155,9 @@ If you're grabbing the default `<EmblaCarouselReact>` component, it accepts the 
 
 - **`htmlTagName`** - Any valid HTML tag like `div` or `ul` etc.
 - **`className`** - Applied to top the top level wrapper.
+- **`children`** - Any valid ReactNode.
 - **`emblaRef`** - Like a ref function to access the Embla instance in parent component.
 - **`options`** - Same [options](https://github.com/davidcetinkaya/embla-carousel#options) as the vanilla JS Embla package.
-- **`children`** - Any valid ReactNode.
 
 <br>
 
