@@ -200,7 +200,9 @@ If you're grabbing the default `<EmblaCarouselReact>` component, it accepts the 
 <h2 align="center">Open Source</h2>
 
 <p align="center">
-  <sup>Copyright © 2019-present, David Cetinkaya.</sup><br>
+  <sup>
+    Copyright © 2019-present, <a href="https://github.com/davidcetinkaya">David Cetinkaya</a> & <a href="https://github.com/gunnarx2">Tobias Lindström</a>.
+  </sup><br>
   Embla is <a href="https://github.com/davidcetinkaya/embla-carousel-react/blob/master/LICENSE">MIT licensed</a> 💖
 </p>
 
