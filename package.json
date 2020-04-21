@@ -62,7 +62,7 @@
     "webpack-cli": "^3.3.11"
   },
   "dependencies": {
-    "embla-carousel": "^2.9.0",
+    "embla-carousel": "^2.9.1",
     "react": "^16.13.1",
     "react-dom": "^16.13.1"
   },
