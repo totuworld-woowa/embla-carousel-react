@@ -30,7 +30,7 @@ const useEmblaCarousel = (
 
   useEffect(() => {
     return () => embla?.destroy()
-  }, [embla])
+  }, [])
 
   const Carousel: FC<PropType> = useCallback(
     ({ htmlTagName = 'div', className, children }) => {
