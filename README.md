@@ -175,6 +175,14 @@ If you're grabbing the default `<EmblaCarouselReact>` component, it accepts the 
 
 <p>
   <img src="https://rawgit.com/davidcetinkaya/embla-carousel/master/docs/assets/codesandbox-logo.svg" height="23" align="top" alt="Embla Carousel CodeSandbox" /> &nbsp;
+  <a href="https://codesandbox.io/s/embla-carousel-react-styled-components-we2je">
+    <code>Styled Components</code>
+  </a> 
+  - Basic Setup with the <a href="https://github.com/styled-components/styled-components">Styled Components</a> library.
+</p>
+
+<p>
+  <img src="https://rawgit.com/davidcetinkaya/embla-carousel/master/docs/assets/codesandbox-logo.svg" height="23" align="top" alt="Embla Carousel CodeSandbox" /> &nbsp;
   <a href="https://codesandbox.io/s/embla-carousel-react-parallax-jedzb">
     <code>Parallax</code>
   </a> 
