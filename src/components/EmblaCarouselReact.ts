@@ -1,4 +1,4 @@
-import EmblaCarousel, { UserOptions } from 'embla-carousel'
+import EmblaCarousel, { EmblaOptions } from 'embla-carousel'
 import { Component, createElement, createRef, ReactNode } from 'react'
 import { canUseDOM } from './utils'
 
@@ -6,7 +6,7 @@ type PropType = {
   htmlTagName: string
   children?: ReactNode
   className?: string
-  options?: UserOptions
+  options?: EmblaOptions
   emblaRef?: (embla: EmblaCarousel) => void
 }
 

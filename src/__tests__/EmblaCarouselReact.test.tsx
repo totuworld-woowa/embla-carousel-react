@@ -1,12 +1,12 @@
 import React from 'react'
 import { mount, configure } from 'enzyme'
 import EnzymeAdapter from 'enzyme-adapter-react-16'
-import EmblaCarouselReact, { UserOptions } from '../'
+import EmblaCarouselReact, { EmblaOptions } from '../'
 
 configure({ adapter: new EnzymeAdapter() })
 
 const emblaRef = () => null
-const options: UserOptions = {
+const options: EmblaOptions = {
   align: 'center',
   containerSelector: '*',
   slidesToScroll: 1,

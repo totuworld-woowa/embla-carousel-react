@@ -1,4 +1,4 @@
-import EmblaCarousel, { UserOptions } from 'embla-carousel'
+import EmblaCarousel, { EmblaOptions } from 'embla-carousel'
 import {
   createElement,
   createRef,
@@ -17,7 +17,7 @@ type PropType = {
 }
 
 const useEmblaCarousel = (
-  options?: UserOptions,
+  options?: EmblaOptions,
 ): [FC<PropType>, EmblaCarousel?] => {
   const [embla, setEmbla] = useState<EmblaCarousel>()
   const container = createRef<HTMLElement>()
