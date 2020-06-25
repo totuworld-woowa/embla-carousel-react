@@ -39,7 +39,6 @@ const useEmblaCarousel = (
         {
           className,
           ref: container,
-          style: { overflow: 'hidden' },
         },
         children,
       )
